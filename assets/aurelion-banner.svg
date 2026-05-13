@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="520" viewBox="0 0 1600 520">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#facc15" stop-opacity="0.42"/>
+      <stop offset="35%" stop-color="#0ea5e9" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#020617" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#facc15"/>
+      <stop offset="45%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" x2="1">
+      <stop offset="0%" stop-color="#facc15"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" fill="none" stroke="#38bdf8" stroke-width="0.5" opacity="0.22"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="520" fill="#020617"/>
+  <rect width="1600" height="520" fill="url(#core)"/>
+  <rect width="1600" height="520" fill="url(#grid)"/>
+  <circle cx="800" cy="260" r="174" fill="none" stroke="#facc15" stroke-width="2" opacity="0.45" filter="url(#glow)"/>
+  <circle cx="800" cy="260" r="112" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.45" filter="url(#glow)"/>
+  <path d="M180 410 C430 220 580 440 800 260 C1020 80 1170 300 1420 110" fill="none" stroke="url(#line)" stroke-width="3" opacity="0.65" filter="url(#glow)"/>
+  <rect x="80" y="72" width="1440" height="376" rx="32" fill="#020617" opacity="0.72" stroke="url(#line)" stroke-width="2"/>
+  <text x="120" y="150" fill="#facc15" font-family="Consolas, Menlo, monospace" font-size="26" letter-spacing="6">AURELION SYNDICATE</text>
+  <text x="120" y="245" fill="url(#gold)" font-family="Arial Black, Impact, sans-serif" font-size="76" letter-spacing="2">PRIVATE AI ENGINEERING</text>
+  <text x="124" y="310" fill="#e5e7eb" font-family="Consolas, Menlo, monospace" font-size="30">reasoning • alignment • autonomy • ethical architecture</text>
+  <text x="124" y="372" fill="#93c5fd" font-family="Consolas, Menlo, monospace" font-size="24">public signal / private core / controlled deployment</text>
+  <text x="1180" y="416" fill="#facc15" font-family="Consolas, Menlo, monospace" font-size="20">ACCESS BY CLEARANCE</text>
+</svg>
