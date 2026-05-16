@@ -27,10 +27,8 @@ The projects below are currently visible from this organization:
 | Repository | What it is |
 |---|---|
 | [`opencode`](https://github.com/Aurelion-Syndicate/opencode) | Open-source coding agent runtime and tooling foundation. |
-| [`Opencode-Tri-Agent-Router`](https://github.com/Aurelion-Syndicate/Opencode-Tri-Agent-Router) | Routing layer that assigns primary, secondary, and verifier agents per request. |
 | [`mempalace`](https://github.com/Aurelion-Syndicate/mempalace) | High-performance memory system for long-horizon agent workflows. |
 | [`agency-agents`](https://github.com/Aurelion-Syndicate/agency-agents) | Large catalog of specialized execution agents across product and operations domains. |
-| [`tavily-mcp`](https://github.com/Aurelion-Syndicate/tavily-mcp) | MCP server for search, extraction, mapping, and crawl operations. |
 | [`career-ops`](https://github.com/Aurelion-Syndicate/career-ops) | AI-assisted job search operations platform with workflow automation. |
 | [`project-nomad`](https://github.com/Aurelion-Syndicate/project-nomad) | Offline-first survival compute stack for resilient field usage. |
 | [`zeroclaw`](https://github.com/Aurelion-Syndicate/zeroclaw) | Lightweight autonomous assistant infrastructure. |
